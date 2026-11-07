@@ -1,26 +1,27 @@
 # Labo 2 - reflecties
 
-Naam: (jouw naam)
+Naam: Mauro Veraart
 
 ## 2. Selectors lezen
 
 Welke elementen raakt elke selector? Eén zin per selector.
 
-- a. `header nav ul li a`: 
-- b. `article > p`: 
-- c. `.uren li:nth-child(3)`: 
-- d. `h2 ~ p`: 
-- e. `.rassen li:first-child`: 
+- a. `header nav ul li a`: Elke link die ergens in een lijstitem zit in een ongeordende lijst in een navigatie blok van de header.
+- b. `article > p`: Een paragraaf die rechtstreeks in een artikel zit
+- c. `.uren li:nth-child(3)`: Elke lijst item die ergens in de class .uren zit en het derde kind van zijn ouder is
+- d. `h2 ~ p`: Elke paragraaf die later komt na een h2, binnen dezelfde ouder
+- e. `.rassen li:first-child`:  Elke lijstitem die ergens in de class .rassen zit en het derde kind van zijn ouder is.
 
 ## 3. Voorspel, dan kijk
 
 Vul de eerste twee kolommen in vóór je de pagina opent. Trede: herkomst, specificiteit, volgorde of overerving (of iets anders, benoem het).
+Herkomst, specifiteit, volgorde, overerving
 
-| vraag | mijn voorspelling (kleur) | beslissende trede | uitkomst in de browser | juist? |
+| vraag | mijn voorspelling (kleur) | beslissende trede () | uitkomst in de browser | juist? |
 |---|---|---|---|---|
-| 1 | | | | |
-| 2 | | | | |
-| 3 | | | | |
+| 1 |green |herkomst | groen|juist |
+| 2 | blauw|volgorde | blauw|juist |
+| 3 | rood| specifiteit| rood| juist|
 | 4 | | | | |
 | 5 | | | | |
 | 6 | | | | |
